@@ -1,9 +1,9 @@
 import numpy as np
 import math
 
-```
+"""
 Adapted from https://facthacks.cr.yp.to/batchgcd.html
-```
+"""
 
 def remainder_tree_batch_gcd(X):
        prods = producttree(X)
